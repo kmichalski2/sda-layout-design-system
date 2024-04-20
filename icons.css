@@ -1,0 +1,18 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.icon-sm {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-send {
+    content: url('assets/icons/Send.svg');
+}
+
+.icon-check {
+    content: url('assets/icons/Check.svg');
+}
