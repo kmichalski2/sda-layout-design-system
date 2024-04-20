@@ -1,0 +1,57 @@
+.btn {
+    padding: 16px 24px;
+    border-radius: 4px;
+    font-size: var(--font-size-5);
+    border: 1px solid transparent;
+}
+
+.btn-md {
+    font-size: var(--font-size-6);
+    padding: 12px 20px;
+}
+
+.btn-sm {
+    font-size: var(--font-size-7);
+    padding: 8px 16px;
+}
+
+.btn-primary {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.btn-primary:focus {
+    outline: 2px var(--color-dark-grey) solid;
+}
+
+.btn-primary:active {
+    background-color: var(--color-shade-2);
+    outline: 0;
+}
+
+.btn-primary:disabled, .btn-secondary:disabled {
+    color: var(--color-grey-blue);
+    background-color: var(--color-silver);
+    outline: 0;
+    border-color: transparent;
+}
+
+.btn-secondary {
+    color: var(--color-primary);
+    background-color: var(--color-white);
+    border-color: var(--color-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-silver);
+}
+
+.btn-secondary:focus {
+    outline: 2px solid var(--color-light-grey);
+    border-color: transparent;
+}
+
+.btn-secondary:active {
+    outline: 0;
+    border-color: transparent;
+}

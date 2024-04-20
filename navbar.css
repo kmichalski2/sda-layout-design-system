@@ -1,0 +1,36 @@
+.header {
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > .link {
+    margin-right: 50px;
+}
+
+.navbar > .link:last-child {
+    margin-right: 0;
+}
+
+.link {
+    text-decoration: none;
+    font-size: var(--font-size-5);
+    color: var(--color-dark-grey);
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link-md {
+    font-size: var(--font-size-6);
+}
+
+.link-sm {
+    font-size: var(--font-size-7);
+}
+
+.link-primary {
+    color: var(--color-primary);
+}
