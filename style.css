@@ -1,0 +1,96 @@
+:root {
+    --color-primary: #4CAF4F;
+    --color-secondary: #263238;
+    --color-info: #2194F3;
+    --color-warning: #FBC02D;
+    --color-error: #E53835;
+    --color-success: #FBC02D;
+
+    --color-white: #FFFFFF;
+    --color-silver: #F5F7FA;
+    --color-grey-blue: #ABBED1;
+    --color-dark-grey: #4D4D4D;
+    --color-black: #263238;
+
+    --color-shade-2: #388E3B;
+
+    --font-size-1: 64px;
+    --font-size-2: 36px;
+    --font-size-3: 28px;
+    --font-size-4: 20px;
+    --font-size-5: 18px;
+    --font-size-6: 16px;
+    --font-size-7: 14px;
+    --font-size-8: 12px;
+} 
+
+.h1 {
+    font-size: var(--font-size-1);
+    font-weight: 500;
+}
+
+.h2 {
+    font-size: var(--font-size-2);
+    font-weight: 500;
+}
+
+.h3 {
+    font-size: var(--font-size-3);
+    font-weight: 500;
+}
+
+.h4 {
+    font-size: var(--font-size-4);
+    font-weight: 500;
+}
+
+.body-1 {
+    font-size: var(--font-size-5);
+    font-weight: 400;
+}
+
+.body-2 {
+    font-size: var(--font-size-6);
+    font-weight: 400;
+}
+
+.body-3 {
+    font-size: var(--font-size-7);
+    font-weight: 400;
+}
+
+.body-4 {
+    font-size: var(--font-size-8);
+    font-weight: 400;
+}
+
+.btn {
+    padding: 16px 24px;
+    border-radius: 4px;
+    font-size: var(--font-size-5);
+}
+
+.btn-primary {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.btn-primary:focus {
+    outline: 2px var(--color-dark-grey) solid;
+}
+
+.btn-primary:active {
+    background-color: var(--color-shade-2);
+    outline: 0;
+}
+
+.btn-primary:disabled {
+    color: var(--color-black);
+    background-color: var(--color-silver);
+    outline: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 24px auto;
+}
