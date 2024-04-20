@@ -1,0 +1,28 @@
+.carousel-indicators [data-bs-target] {
+    background-color: var(--color-primary);
+    opacity: .3;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+.h1, h1 {
+    font-size: var(--font-size-1);
+}
+
+.color-dark-grey {
+    color: var(--color-dark-grey);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-grey {
+    color: var(--color-grey);
+}
